@@ -11,10 +11,10 @@ from rich.style import Style
 import pystyle
 from pystyle import Colors, Colorate
 
-from Axel import Krazy
+from cylo import Bubcyz
 
-__CHANNEL_USERNAME__ = "AxelToolChannel"
-__GROUP_USERNAME__   = "AxelToolChat"
+__CHANNEL_USERNAME__ = "GronTool"
+__GROUP_USERNAME__   = "GronTool"
 
 def signal_handler(sig, frame):
     print("\n Tʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴀɴᴅ ᴛʀᴜsᴛɪɴɢ ᴏᴜʀ ᴛᴏᴏʟ, ɢᴏᴏᴅʙʏᴇᴇ.")
@@ -40,12 +40,12 @@ def gradient_text(text, colors):
 def banner(console):
     os.system('cls' if os.name == 'nt' else 'clear')    
     
-    brand_name =  " _____               _   _____               _   \n"
-    brand_name += "(  _  )             (_ )(_   _)            ( _ ) \n"
-    brand_name += "| (_) |         __   | |  | |   _      _    | | \n"
-    brand_name += "|  _  |(`\/') /'__`\ | |  | | /'_`\  /'_`\  | | \n"
-    brand_name += "| | | | >  < (  ___/ | |  | |( (_) )( (_) ) | | \n"
-    brand_name += "(_) (_)(_/\_)`\____)(___) (_)`\___/'`\___/'(___)\n"
+    brand_name =  "  ________                  ___________           .__   \n"
+    brand_name += " /  _____/______  ____   ___\__    ___/___   ____ |  |  \n"
+    brand_name += "/   \  __\_  __ \/  _ \ /    \|    | /  _ \ /  _ \|  |  \n"
+    brand_name += "\    \_\  \  | \(  <_> )   |  \    |(  <_> |  <_> )  |__\n"
+    brand_name += " \______  /__|   \____/|___|  /____| \____/ \____/|____/\n"
+    brand_name += "        \/                  \/                          \n"
     brand_name += "\n"
     brand_name += "- [ Powered By CyloPlays ]\n"
     colors = [
@@ -142,7 +142,7 @@ if __name__ == "__main__":
         acc_password = prompt_valid_value("[bold][?] Aᴄᴄᴏᴜɴᴛ Pᴀssᴡᴏʀᴅ: [/bold]", "Password", password=False)
         acc_access_key = prompt_valid_value("[bold][?] Aᴄᴄᴇss Kᴇʏ:[/bold]", "Access Key", password=False)
         console.print("[bold cyan][%] Tʀʏɪɴɢ ᴛᴏ ʟᴏɢ ɪɴ ᴛᴏ ᴛʜᴇ ɢɪᴠᴇɴ ᴀᴄᴄᴏᴜɴᴛ.[/bold cyan]: ", end=None)
-        cpm = Krazy(acc_access_key)
+        cpm = Bubcyz(acc_access_key)
         login_response = cpm.login(acc_email, acc_password)
         if login_response != 0:
             if login_response == 100:
