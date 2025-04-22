@@ -40,12 +40,12 @@ def gradient_text(text, colors):
 def banner(console):
     os.system('cls' if os.name == 'nt' else 'clear')    
     
-    brand_name =  "  ________                  ___________           .__   \n"
-    brand_name += " /  _____/______  ____   ___\__    ___/___   ____ |  |  \n"
-    brand_name += "/   \  __\_  __ \/  _ \ /    \|    | /  _ \ /  _ \|  |  \n"
-    brand_name += "\    \_\  \  | \(  <_> )   |  \    |(  <_> |  <_> )  |__\n"
-    brand_name += " \______  /__|   \____/|___|  /____| \____/ \____/|____/\n"
-    brand_name += "        \/                  \/                          \n"
+    brand_name =  "   ________                  ___________           .__    \n"
+    brand_name += "  /  _____/______  ____   ___\__    ___/___   ____ |  |   \n"
+    brand_name += " /   \  __\_  __ \/  _ \ /    \|    | /  _ \ /  _ \|  |   \n"
+    brand_name += " \    \_\  \  | \(  <_> )   |  \    |(  <_> |  <_> )  |__ \n"
+    brand_name += "  \______  /__|   \____/|___|  /____| \____/ \____/|____/ \n"
+    brand_name += "         \/                  \/                           \n"
     brand_name += "\n"
     brand_name += "- [ Powered By CyloPlays ]\n"
     colors = [
