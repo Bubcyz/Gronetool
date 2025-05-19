@@ -79,7 +79,7 @@ def load_player_data(cpm):
             
         else:
             print(Colorate.Horizontal(Colors.rainbow, 'Eʀʀᴏʀ: ɴᴇᴡ ᴀᴄᴄᴏᴜɴᴛs ᴍᴜsᴛ ʙᴇ sɪɢɴᴇᴅ-ɪɴ ᴛᴏ ᴛʜᴇ ɢᴀᴍᴇ ᴀᴛʟᴇᴀsᴛ ᴏɴᴄᴇ.'))
-            exit(1)
+            sleep(1)
     else:
         print(Colorate.Horizontal(Colors.rainbow, 'Eʀʀᴏʀ: sᴇᴇᴍs ʟɪᴋᴇ ʏᴏᴜʀ ʟᴏɢɪɴ ɪs ɴᴏᴛ ᴘʀᴏᴘᴇʀʟʏ sᴇᴛ.'))
         exit(1)
